@@ -1,0 +1,81 @@
+/* default styles */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    font-family: arial;
+    font-size: 16px;
+}
+/* ------HEADER-------*/
+header {
+    max-width: 1200px;
+   margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom:20px;
+    padding: 0;
+    width: 100%;
+    min-height: 200px;
+}
+nav ul li {
+    padding: 10px 0;
+    font-size: 1.4em;
+}
+/* --------MAIN STYLES ------*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.hello-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 30px;
+    min-height: 400px;
+}
+
+.hello {
+    color: lightgrey;
+    padding: 40px 0px 40px 40px;
+    text-align: left;
+}
+/* --------BUTTON STYLES -----*/
+button.email-me {
+    display: block;
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: solid grey 1px;
+    font-size: 20px;
+}
+/*----------FOOTER -------*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
+/*----------TABLET STYLES ------*/
+
+
+
+
+
+
+/*----------DESKTOP STYLES --------*/
