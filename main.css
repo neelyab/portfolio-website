@@ -28,6 +28,11 @@ nav ul li {
     padding: 10px 0;
     font-size: 1.4em;
 }
+nav ul li a {
+    text-decoration: none;
+    color:#534E4D;
+
+}
 /* --------MAIN STYLES ------*/
 main {
     display: flex;
@@ -61,6 +66,13 @@ button.email-me {
     border: solid grey 1px;
     font-size: 20px;
 }
+.email-me a {
+    text-decoration: none;
+    color:#534E4D;
+}
+button:hover {
+
+}
 /*----------FOOTER -------*/
 footer {
     display: flex;
@@ -71,6 +83,27 @@ footer {
     width: 100%;
     background-color: grey;
 }
+
+/*------ ABOUT PAGE ------*/
+.about p, .projects p {
+    max-width: 500px;
+    font-size: 1.3em;
+    padding: 20px 20px;
+}
+/* ----- PROJECT PAGE ------*/
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#quiz-app {
+width: 95%;
+}
+
+
 /*----------TABLET STYLES ------*/
 
 
