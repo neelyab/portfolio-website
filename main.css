@@ -22,7 +22,7 @@ nav ul {
     margin-bottom:20px;
     padding: 0;
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
 }
 nav ul li {
     padding: 10px 0;
@@ -33,12 +33,19 @@ nav ul li a {
     color:#534E4D;
 
 }
+.name {
+    display: none;
+}
+.title {
+    display: none;
+}
 /* --------MAIN STYLES ------*/
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .hello-container {
@@ -65,7 +72,6 @@ button.email-me {
     padding: 0 20px;
     border: solid grey 1px;
     font-size: 20px;
-    text-decoration: none;
 }
 .email-me a {
     text-decoration: none;
@@ -100,16 +106,72 @@ footer {
     margin: 0 auto;
 }
 
-#quiz-app {
+.project-image {
 width: 95%;
+min-height: 300px;
+background-color: darkgrey;
 }
 
 
 /*----------TABLET STYLES ------*/
 
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+        border-bottom: 1px solid black;
+        margin-bottom: 60px;
+        max-width: 1200px;
+        padding-right: 20px;
 
+    }
+    nav ul li {
+        padding-left: 20px;
+    }
+    .name {
+        display: inline-block;
+        margin-right: 50%;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .hello-container {
+        max-width: 70%;
+        border-radius: 10px;
+    }
+}
 
 
 
 
 /*----------DESKTOP STYLES --------*/
+@media screen and (min-width: 940px) {
+
+    .title {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 45%;
+        border-right: 1px solid black;
+        padding-right: 20px;
+        padding-left: 10px;
+        min-height: 400px;
+        margin-right: 10px;
+        font-size: 2.5em;
+    }
+    .about {
+        background-color: lightslategrey;
+        min-height: 400px;
+        width: 45%;
+        padding: 20px 20px;
+        margin-left: 50px;
+
+    }
+    .about-container, .projects-page {
+        display: flex;
+        flex-direction: row;
+    }
+    .hello-container {
+        max-width: 50%;
+    }
+}
