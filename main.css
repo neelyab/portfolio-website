@@ -86,11 +86,16 @@ button.email-me {
     text-decoration: none;
     color:#534E4D;
 }
+/*
 button:hover {
  background-color: #1196AD;
  border: 1px solid white;
  color: white;
+ cursor: pointer;
 }
+button a:hover {
+    color: white;
+} */
 /*----------FOOTER -------*/
 footer {
     display: flex;
