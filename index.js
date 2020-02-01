@@ -6,10 +6,10 @@ $('li').hover(function (){
 });
 }
 function hoverButton(){
-    $('button').hover(function(){
-        $(this).css('background-color', '#1196AD').css('border', 'solid 1px white').find('a').css('color', 'white');
+    $('.email-me').hover(function(){
+        $(this).css('background-color', '#1196AD').css('border', 'solid 1px white').css('color', 'white');
     }, function(){
-        $(this).css('background-color', 'white').css('border','solid 1px black').find('a').css('color', '#534E4D')
+        $(this).css('background-color', 'white').css('border','solid 1px black').css('color', '#534E4D')
     })
 }
 

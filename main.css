@@ -71,21 +71,20 @@ main {
 }
 
 /* --------BUTTON STYLES -----*/
-button.email-me {
+.email-me {
     display: block;
     margin: auto;
     background-color: white;
     height: 50px;
     border-radius: 30px;
-    padding: 0 20px;
+    padding: 10px 20px;
     border: 1px solid black;
     font-size: 1.2em;
     margin-top: 20px;
-}
-.email-me a {
     text-decoration: none;
     color:#534E4D;
 }
+
 /*
 button:hover {
  background-color: #1196AD;
